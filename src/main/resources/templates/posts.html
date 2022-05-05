@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>demo3 掲示板</title>
+	</head>
+	<body>
+	    <h1>掲示板</h1>
+	
+	    <form method="post" th:action="@{/logout}">
+	        <input type="submit" value="ログアウト">
+	    </form>
+		
+		<!-- タイトル入力欄 -->
+		
+		<hr>
+		<!-- 内容入力欄 -->
+	    
+	    <hr>
+	    <!-- 投稿ボタン -->
+	    
+	    <!-- 投稿一覧 -->
+	</body>
+</html>
