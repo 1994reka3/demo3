@@ -14,7 +14,7 @@ import lombok.Data;
 public class Posts {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private Integer id;
 	private String title;
 	private String name;
 	private String text;
